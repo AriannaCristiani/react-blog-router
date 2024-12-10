@@ -10,9 +10,8 @@
 }
 
 body {
-  background-image: url(../public/green-aesthetic-desktop-5nfc562s7nrq5xt3.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #6f997a;
+
 }
 
 ul,
@@ -28,6 +27,19 @@ a {
 
 a:hover {
   opacity: 50%;
+}
+
+.container {
+  max-width: 1300px;
+  padding: 0px 10px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 /* navbar */
@@ -77,18 +89,10 @@ nav .active {
 
 .post_list {
   margin-top: 30px;
-  display: flex;
   padding: 20px 10px;
+  width: 300px;
 }
 
 .post_list>* {
   cursor: pointer;
-  background-color: #679773;
-  width: 30%;
-  text-align: center;
-  padding: 20px 20px;
-  margin-top: 10px;
-  font-size: 20px;
-  box-shadow: 2px 2px 4px rgb(11, 32, 8);
-  border-radius: 10px;
 }

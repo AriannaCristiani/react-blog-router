@@ -2,8 +2,8 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
 import About from './pages/About'
 import Main from './pages/Main'
-import Index from '.pages/posts/Index.jsx'
-import Show from '.pages/posts/Show.jsx'
+import Index from './pages/posts/Index'
+import Show from './pages/posts/Show.jsx'
 import Default from './layouts/Default'
 
 
