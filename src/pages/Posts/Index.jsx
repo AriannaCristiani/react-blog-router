@@ -9,6 +9,7 @@ export default function Index() {
     const [posts, setPosts] = useState([])
 
     function fetchPosts() {
+
         axios.get(`${BASE_API_URI}/posts`)
             .then(res => {
                 setPosts(res.data.filteredPosts)
