@@ -26,12 +26,12 @@ export default function Index() {
         <main>
             <section>
                 <div className='container'>
-                    <h1 className='main_title'>Le nostre pizze</h1>
+                    <h1 className='main_title'>Ecco l'elenco dei Post</h1>
                 </div>
                 <div className="container">
-                    <div>
+                    <div className="row">
                         {posts.map(post => (
-                            <div className="row" key={post.id}>
+                            <div className="post_list" key={post.id}>
                                 <Card post={post} />
                             </div>
                         ))}

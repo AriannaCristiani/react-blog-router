@@ -10,7 +10,7 @@
 }
 
 body {
-  background-color: #6f997a;
+  background-color: #95b69e;
 
 }
 
@@ -90,7 +90,7 @@ nav .active {
 .post_list {
   margin-top: 30px;
   padding: 20px 10px;
-  width: 300px;
+  width: 400px;
 }
 
 .post_list>* {
