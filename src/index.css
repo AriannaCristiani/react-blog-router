@@ -1,0 +1,94 @@
+/* reset */
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+body {
+  background-image: url(../public/green-aesthetic-desktop-5nfc562s7nrq5xt3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+  text-decoration: inherit;
+}
+
+a:hover {
+  opacity: 50%;
+}
+
+/* navbar */
+
+.navbar {
+  background-color: rgba(175, 175, 175, 0.781);
+  padding: 20px 20px;
+}
+
+.nav-menu {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav .active {
+  color: #296638;
+  text-shadow: 1px 1.5px 2px rgb(0, 0, 0);
+  font-size: 18.5px;
+}
+
+
+/* homepage */
+
+.main_title {
+  color: #51855e;
+  font-size: 40px;
+  text-align: center;
+  margin: 30px;
+  text-shadow: 1px 2px 4px rgb(0, 0, 0);
+}
+
+/* about-us */
+.about_content {
+  background-color: #6f997a;
+  width: 80%;
+  text-align: center;
+  padding: 20px 20px;
+  margin-top: 10px;
+  font-size: 20px;
+  box-shadow: 2px 2px 4px rgb(11, 32, 8);
+  border-radius: 10px;
+}
+
+/* main */
+
+.post_list {
+  margin-top: 30px;
+  display: flex;
+  padding: 20px 10px;
+}
+
+.post_list>* {
+  cursor: pointer;
+  background-color: #679773;
+  width: 30%;
+  text-align: center;
+  padding: 20px 20px;
+  margin-top: 10px;
+  font-size: 20px;
+  box-shadow: 2px 2px 4px rgb(11, 32, 8);
+  border-radius: 10px;
+}
